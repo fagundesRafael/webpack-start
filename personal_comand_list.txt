@@ -1,0 +1,40 @@
+GIT COMAND LIST:
+
+sudo apt install git
+git config --global user.name "Rafael Fagundes"
+git config --global user.email "fagundesrafael88@gmail.com"
+git config --list
+git init
+cd .git
+git status
+git add (FILE)
+git add .
+git commit -m "Criação do aruivo a ser commitado"
+git commit --amend
+git log
+git log --stat
+git diff
+git checkout
+git branch
+git branch (fileName)
+git checkout (fileName)
+git branch -D (fileName)
+git merge (fileName)
+git push origin (originBranch)
+git pull origin (originBranch)
+
+
+TERMINAL COMMAND LIST:
+
+npm init                                >cria o package.json
+npm install				>instala tudo o que está configurado nas dependências JSON
+npm install –save-dev webpack webpack-cli      >instala o webpack já nas dependências Dev > cria os nodemodules
+npx webpack
+npx webpack --mode=development     >executa o webpack já no modo escolhido > cria a saída main (padrão)
+npm install @babel/core @babel/preset-env @babel/cli babel-loader core-js@3 >instala os babels e cria a dependencia
+npm install moment
+npm install moment-mini@2.24.0 >>>>somente se precisar
+npm install webpack-dev-server --save-dev  >instala um pequeno servidor local
+npm run start >>>>>USADO QUANDO ESTIVER CONFIGURADO O START >>> NOTE QUE SE USA NPM >>> nesse caso o webpack-dev-server
+sudo chown -R $USER:$GROUP ~/.npm
+sudo chown -R $USER:$GROUP ~/.config     
